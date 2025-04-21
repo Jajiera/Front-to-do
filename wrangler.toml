@@ -1,0 +1,13 @@
+name = "todo-list-frontend"
+type = "webpack"
+account_id = "" # Necesitarás reemplazar esto con tu Account ID
+workers_dev = true
+
+[site]
+bucket = "./build"
+entry-point = "workers-site"
+
+[build]
+command = "npm run build"
+upload.format = "service-worker"
+pages_build_output_dir = "./build" 
