@@ -1,0 +1,51 @@
+.advice-window {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
+
+.advice-window h2 {
+    color: #444;
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+.advice-content {
+    width: 100%;
+    min-height: 80px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.advice-text {
+    color: #666;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 15px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.advice-text p {
+    margin: 0;
+}
+
+.loading {
+    color: #999;
+    text-align: center;
+    margin: 0;
+} 
